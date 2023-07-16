@@ -65,6 +65,16 @@
   right: 0;
   bottom: 0;
   width: auto;
+  height: auto;
   position: absolute;
-  background-position: calc();
+  background-position: calc(100%-10px);
+  background-size: 30px;
+  cursor: pointer;
+}
+#result{
+  font-size: 20px;
+}
+
+#result span{
+  color: #ffff76;
 }
